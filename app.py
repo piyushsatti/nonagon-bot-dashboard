@@ -6,7 +6,7 @@ from helpers import getToken, getUserData, getBotCommonGuilds
 
 app = Flask(__name__)
 app.secret_key = "hi"
-bot = 'ODk4NTYzODIzNDIwNzM1NTU4.YWmCxg.XLhADtRS_67LwqmFuhDu2GDDRDA'
+bot = ""
 # app.permanent_session_lifetime = timedelta(seconds=60)
 
 def getLoginStatus(): 
